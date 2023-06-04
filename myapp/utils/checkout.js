@@ -6,7 +6,7 @@ import {loadStripe} from '@stripe/stripe-js';
 
 
 //we need to pass in the line items to create a checkout stripe session.
-export default async function checkout({lineItems}) {
+export  async function checkout({lineItems}) {
 
     let stripePromise = null;
 

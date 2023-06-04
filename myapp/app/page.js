@@ -1,13 +1,9 @@
 'use client';
 
 import Image from 'next/image'
-import checkout from '../utils/checkout'
+import {checkout} from '../utils/checkout'
 
 export default function Home() {
-
-
-
-
 
   return (
     <div className="container">
